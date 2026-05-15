@@ -122,7 +122,7 @@ function comparalistas(letra){
 async function atraso(tempo){
     return new Promise(x => setTimeout(x, tempo))     
 }
-
+carregaImagemForca()
 function carregaImagemForca(){
     switch(tentativas){
         case 5:
